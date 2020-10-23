@@ -3,6 +3,8 @@ import React, {useState, useEffect} from 'react'
 import DogAdd from './components/DogAdd'
 import DogCard from './components/DogCard'
 
+import './App.scss'
+
 function App() {
   const [baseurl] = useState("https://dogs-api-web35.herokuapp.com")
   const [data, setData] = useState([
