@@ -27,7 +27,7 @@ const DogAdd = (props) => {
     }
 
 
-    return (<>
+    return (<article>
         <h2> Add Breed </h2>
         <form
             onSubmit={addDog}
@@ -52,7 +52,7 @@ const DogAdd = (props) => {
             </label>
             <button type="submit">Submit Dog</button>
         </form>
-    </>)
+    </article>)
 }
 
 export default DogAdd
